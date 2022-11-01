@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+         <link rel="stylesheet" type="text/css" href="prova.css">
+         <link href="https://fonts.googleapis.com/css?family=Martel+Sans:400,700" rel="stylesheet">
+         <script type="text/javascript" src="prova.js"></script>
+          
+        <title>AVALIAÇAO 2</title>
+        
+    </head>
+    
+<body onload="gerarNumero()">
+    
+<div>
+    <h1><strong>APRENDENDO MATEMÁTICA</strong></h1>
+</div>
+ 
+<div id="principal">
+    
+    <p id="perg">Quais são as respostas para as operações abaixo?</p>
+    
+        <div>
+         <fieldset class="fieldset-border">
+             
+            <legend class="legend-border">Soma</legend>
+            
+            <div>
+                
+                <input type="text" id="soma1" class="inputnum" readonly="readonly"/><span>+</span> <input type="text" id="soma2" class="inputnum" readonly="readonly"/> <span>=</span> <input type="text" id="respostasoma1" class="resposta"/>
+            </div>
+            
+            <div>
+                
+                <input type="text" id="soma3" class="inputnum" readonly="readonly"/><span>+</span> <input type="text" id="soma4" class="inputnum" readonly="readonly"/> <span>=</span> <input type="text" id="respostasoma2" class="resposta"/>
+
+            </div>
+            
+            
+            <!--class="inputnum"-->
+            
+        </fieldset> 
+        
+        </div>
+        
+        <br>
+        
+        <div>
+            
+        <fieldset class="fieldset-border">
+            <legend class="legend-border">Subtração</legend>
+            
+            <div>
+                
+                <input type="text" id="sub1" class="inputnum" readonly="readonly"/><span>-</span> <input type="text" id="sub2" class="inputnum" readonly="readonly"/> <span>=</span> <input type="text" id="respostasub1" class="resposta"/>
+                
+            </div>
+            
+                <input type="text" id="sub3" class="inputnum" readonly="readonly"/><span>-</span> <input type="text" id="sub4" class="inputnum" readonly="readonly"/> <span>=</span> <input type="text" id="respostasub2" class="resposta"/>
+                
+        </fieldset>
+        
+        </div>
+        
+        <br>
+        
+        <div>
+            
+        <fieldset class="fieldset-border">
+               
+            <legend class="legend-border">Multiplicação</legend>
+            
+            <div>
+                
+                <input type="text" id="mult1" class="inputnum" readonly="readonly"/><span>*</span> <input type="text" id="mult2" class="inputnum" readonly="readonly"/> <span>=</span> <input type="text" id="respostamult1" class="resposta"/>
+                
+            </div>
+            
+                <input type="text" id="mult3" class="inputnum" readonly="readonly"/><span>*</span> <input type="text" id="mult4" class="inputnum" readonly="readonly"/> <span>=</span> <input type="text" id="respostamult2" class="resposta"/>
+  
+        </fieldset>
+        
+        </div>
+  
+  <div>
+    <input id='botao1'
+       type="button"
+       onClick="window.location.reload();"
+       value="Jogar Novamente">
+    
+    <input id="botao2"
+       type="submit" 
+       onclick="capturar()"
+       value="Checar Respostas">
+    
+  </div>
+  
+</div>
+        
+  <div>
+    
+    <p id="final">Desenvolvido por: Lucas Henrique da Silva Medeiros</p>
+    
+  </div>
+
+
+   </body>
+</html>
